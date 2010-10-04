@@ -1,13 +1,13 @@
 package URI::scp;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use strict;
 use warnings;
 
 use base qw(URI::_server URI::_userpass);
 
-sub default_port { 21 }
+sub default_port { 22 }
 
 sub path { shift->path_query(@_) }  
 
