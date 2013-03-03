@@ -1,6 +1,6 @@
 package URI::scp;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use strict;
 use warnings;
@@ -33,7 +33,7 @@ user, password, etc.).
 
 =head1 AUTHOR
 
-Stefan Gipper <stefanos@cpan.org>
+-
 
 =head1 COPYRIGHT
 
